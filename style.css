@@ -463,20 +463,19 @@ footer .social-btn-anchor{
     padding: 42px 44px;
 }
 .hero-section {
-    padding-top: 60px;
+    padding-top: 160px;
 }
 .py-100 {
     padding-top: 60px;
     padding-bottom: 60px;
 }
 .btn-group-vertical>.btn, .btn-group>.btn {
-    position: relative;
-    flex:0;
+    flex: none;
 }
     }
     @media screen and (max-width: 575.97px){
         .hero-section {
-            padding-top: 40px;
+            padding-top: 140px;
         }
         .drop-line {
     padding: 30px 18px;
