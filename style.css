@@ -490,8 +490,8 @@ footer .social-btn-anchor {
     }
 
  .featured-img{
-        max-width: unset;
-        min-width: unset;
+        max-width: 220px;
+        min-width: 220px;
     }
 
 }
@@ -541,5 +541,8 @@ footer .social-btn-anchor {
         max-width: unset;
         min-width: unset;
     }
-
+    .form-inputs {
+        display: block;
+       
+    }
 }
