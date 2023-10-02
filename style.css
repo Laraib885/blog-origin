@@ -463,6 +463,10 @@ footer .social-btn-anchor {
 
 }
 
+.featured-img  {
+    max-width: 220px;
+    min-width: 220px;
+}
 /*Footer end*/
 
 
@@ -521,6 +525,10 @@ footer .social-btn-anchor {
     .py-100 {
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+    .featured-img{
+        max-width: unset;
+        min-width: unset;
     }
 
 }
