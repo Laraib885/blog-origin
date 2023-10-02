@@ -452,9 +452,13 @@ footer .social-btn-anchor{
     
 }
 
-    @media screen and (min-width: 992px){
+    @media (max-width: 992px){
 .blog-container-992 {
     max-width: 992px;
+}
+.btn-group-vertical>.btn, .btn-group>.btn {
+    position: relative;
+    flex: 0;
 }
     }
 
@@ -470,8 +474,10 @@ footer .social-btn-anchor{
     padding-bottom: 60px;
 }
 .btn-group-vertical>.btn, .btn-group>.btn {
+
     flex: none;
 }
+
     }
     @media screen and (max-width: 575.97px){
         .hero-section {
@@ -484,5 +490,6 @@ footer .social-btn-anchor{
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
 }
 
