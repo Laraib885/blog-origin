@@ -462,10 +462,11 @@ footer .social-btn-anchor {
 
 }
 
-.featured-img  {
+.featured-img-size{
     max-width: 220px;
     min-width: 220px;
 }
+
 /*Footer end*/
 
 .card-feature-img-wrapper:hover{
@@ -489,10 +490,7 @@ footer .social-btn-anchor {
         gap: 14px;
     }
 
- .featured-img{
-        max-width: 220px;
-        min-width: 220px;
-    }
+ 
 
 }
 
@@ -515,12 +513,9 @@ footer .social-btn-anchor {
     .btn-group-vertical>.btn,
     .btn-group>.btn {
 
-        flex: none;
+        flex: 1 !important;
     }
-    .featured-img{
-        max-width: unset;
-        min-width: unset;
-    }
+    
 
 }
 
