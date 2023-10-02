@@ -34,7 +34,7 @@ h3 {
 
 }
 
-h4{
+h4 {
     font-size: 22px;
     font-weight: 700;
     line-height: 30px;
@@ -77,13 +77,15 @@ h6 {
     border: 1px solid black;
 }
 
-button .earth{
+button .earth {
     border-right: 1px solid #C9C9C9;
     padding-right: 18px;
 }
-button .arrow{
+
+button .arrow {
     padding-left: 18px;
 }
+
 /*Navbar End*/
 
 /*Blog start*/
@@ -94,6 +96,7 @@ button .arrow{
 .blog-post-card-horizontal {
     border-bottom: 2px solid #dbe4ed;
 }
+
 /*Blog end*/
 
 /*Card start*/
@@ -172,8 +175,10 @@ button .arrow{
 }
 
 .btn-primary:hover svg {
-    transform: translateX(5px); /* Move the SVG to the right on hover */
-    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    transform: translateX(5px);
+    /* Move the SVG to the right on hover */
+    transition: transform 0.3s ease;
+    /* Add a smooth transition effect */
 }
 
 .btn-secondary {
@@ -184,17 +189,19 @@ button .arrow{
     gap: 20px !important;
 }
 
-button .earth{
+button .earth {
     border-right: 1px solid #C9C9C9;
     padding-right: 18px;
 }
-button .arrow{
+
+button .arrow {
     padding-left: 18px;
 }
 
-.dropdown-toggle::after{
+.dropdown-toggle::after {
     display: none;
 }
+
 /*PAragraph*/
 p {
     color: #575757;
@@ -204,12 +211,12 @@ p {
     margin-bottom: 0;
 }
 
-.explore-services-section .show.accordion-item{
+.explore-services-section .show.accordion-item {
     box-shadow: 0px 9px 45px -12px rgba(0, 0, 0, 0.08);
     background-color: #FFF !important;
 }
 
-a{
+a {
     text-decoration: none;
     color: #575757;
     font-size: 16px;
@@ -217,20 +224,20 @@ a{
 }
 
 
-.mb-80{
+.mb-80 {
     margin-bottom: 80px;
 }
 
-.py-100{
+.py-100 {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.text-blue{
+.text-blue {
     color: #006cd2;
 }
 
-.features-cards{
+.features-cards {
     align-items: start;
     padding: 30px;
     gap: 16px;
@@ -242,27 +249,27 @@ a{
 
 }
 
-.features-cards:hover{
+.features-cards:hover {
     border: 1.5px solid #006CD2;
     box-shadow: 0px 4px 20px 0px rgba(0, 108, 210, 0.35);
     transition: all 0.3s ease;
 }
 
 
-img{
+img {
     width: auto;
     height: auto;
     max-width: 100%;
     user-select: none;
 }
 
-.our-partners-row{
+.our-partners-row {
     border-top: 1px solid #cccccc;
     border-bottom: 1px solid #cccccc;
 }
 
 
-.py-70{
+.py-70 {
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -270,128 +277,140 @@ img{
 .our-partners .logo-wrapper {
     width: 240px;
     background-color: #fafafa;
-    border-radius: 14px;}
+    border-radius: 14px;
+}
 
-    .heading-wrapper {
-        transform: translate(0px, -50%);
-    }
+.heading-wrapper {
+    transform: translate(0px, -50%);
+}
 
-    .drop-line {
-        box-shadow: 0px 6px 24px 8px rgba(0, 0, 0, 0.14);
-        border-radius: 12px;
-        padding: 82px 84px;
-        max-width: 824px;
-    }
+.drop-line {
+    box-shadow: 0px 6px 24px 8px rgba(0, 0, 0, 0.14);
+    border-radius: 12px;
+    padding: 82px 84px;
+    max-width: 824px;
+}
 
-    .bg-blue{
-        background-color: #f2f9ff;
-    }
+.bg-blue {
+    background-color: #f2f9ff;
+}
 
 
-    .featured-img, .featured-image {
-        aspect-ratio: 9/6;
-        width: 100%;
-        height: auto;
-    }
+.featured-img,
+.featured-image {
+    aspect-ratio: 9/6;
+    width: 100%;
+    height: auto;
+}
 
-    .animated-underline {
-        position: relative;
-        display: inline-block;
-        padding-bottom: 5px;
-        transition: border-color 0.3s; /* Add a smooth transition effect */
-    }
-    
-    .animated-underline:hover {
-        /* Hovered underline color */
-        border-bottom: 2px solid #00f; /* Change the color as desired */
-    }
-    
+.animated-underline {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    transition: border-color 0.3s;
+    /* Add a smooth transition effect */
+}
 
-    .hero-section{
-        padding-top: 170px;
-    }
+.animated-underline:hover {
+    /* Hovered underline color */
+    border-bottom: 2px solid #00f;
+    /* Change the color as desired */
+}
 
-    .fs-16{
-        font-size: 16px;
-    }
 
-    .fs-18 {
-        font-size: 18px;
-    }
+.hero-section {
+    padding-top: 170px;
+}
 
-    .fs-14{
-        font-size: 14px;
-    }
+.fs-16 {
+    font-size: 16px;
+}
 
-    .text-black {
-        color: black !important;
-    }
+.fs-18 {
+    font-size: 18px;
+}
 
-    .form-control, .form-select {
-        font-size: 14px;
-        padding: 12px 16px;
-        border-radius: 50px;
-        border: 1px solid #cccccc;
-    }
-    .text-grey {
-        color: #333333;
-    }
+.fs-14 {
+    font-size: 14px;
+}
 
-    .form-inputs {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 16px;
-    }
-    .form-control, .form-select {
-        font-size: 14px;
-        padding: 12px 16px;
-        border-radius: 50px;
-        border: 1px solid #cccccc;
-    }
+.text-black {
+    color: black !important;
+}
 
-    .form-select {
-        font-size: 14px;
-        padding: 12px 16px;
-        border-radius: 50px;
-        border: 1px solid #cccccc;
-    }
+.form-control,
+.form-select {
+    font-size: 14px;
+    padding: 12px 16px;
+    border-radius: 50px;
+    border: 1px solid #cccccc;
+}
 
-    .form button {
-        max-width: 305px;
-    }
-    
-   
-    .form-label, .form-select {
-        font-size: 14px;
-        color: #575757;
-    }
+.text-grey {
+    color: #333333;
+}
 
-    .my-90 {
-        margin-top: 90px;
-        margin-bottom: 90px;
-    }
-   
-    .discover-services .card .card-feature-img-wrapper {
-        width: 100%;
-        height: auto;
-        aspect-ratio: 9/7;
-        border-radius: 22px;
-        transition: 0.25s linear;
-    }
-    .bg-yellow {
-        background-color: #ffb72c;
-    }
-    
+.form-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.form-control,
+.form-select {
+    font-size: 14px;
+    padding: 12px 16px;
+    border-radius: 50px;
+    border: 1px solid #cccccc;
+}
+
+.form-select {
+    font-size: 14px;
+    padding: 12px 16px;
+    border-radius: 50px;
+    border: 1px solid #cccccc;
+}
+
+.form button {
+    max-width: 305px;
+}
+
+
+.form-label,
+.form-select {
+    font-size: 14px;
+    color: #575757;
+}
+
+.my-90 {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.discover-services .card .card-feature-img-wrapper {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 9/7;
+    border-radius: 22px;
+    transition: 0.25s linear;
+}
+
+.bg-yellow {
+    background-color: #ffb72c;
+}
+
 
 
 /*Footer*/
-footer{
+footer {
     background: #E9F4FF;
 }
+
 /* Initial styling for the underline */
 footer ul li .animated-underline {
     position: relative;
-    text-decoration: none; /* Remove default underline */
+    text-decoration: none;
+    /* Remove default underline */
 }
 
 /* Add an invisible pseudo-element for the underline */
@@ -401,95 +420,107 @@ footer ul li .animated-underline::before {
     bottom: 0;
     left: 0;
     width: 0;
-    height: 2px; /* Adjust the height of the underline as needed */
-    background-color: black; /* Adjust the color as needed */
-    transition: width 0.3s ease; /* Add a smooth transition for the width */
+    height: 2px;
+    /* Adjust the height of the underline as needed */
+    background-color: black;
+    /* Adjust the color as needed */
+    transition: width 0.3s ease;
+    /* Add a smooth transition for the width */
     transform-origin: left;
 }
 
 /* Apply the animation on hover */
 footer ul li .animated-underline:hover::before {
-    width: 100%; /* Expand the underline to 100% width */
+    width: 100%;
+    /* Expand the underline to 100% width */
 }
 
 
-footer .social-icons{
-    a{
+footer .social-icons {
+    a {
         padding: 0 18px;
         border-right: 1px solid #c9c9c9;
     }
 }
 
-.footer-links li a{
- 
-    border-right: 1px solid #575757; 
+.footer-links li a {
+
+    border-right: 1px solid #575757;
     padding-right: 18px;
     padding-left: 18px;
 }
 
-footer .social-btn-anchor{
+footer .social-btn-anchor {
     padding-right: 18px;
     border-right: 1px solid #C9C9C9;
-    
+
 }
+
 .footer-squares {
     position: absolute;
     bottom: 0;
     right: 0;
-   
+
 }
 
 /*Footer end*/
 
-@media  (max-width: 1025px) {
-    .navbar .container{
+
+@media screen and (min-width: 992px){
+    .blog-container-992 {
+        max-width: 992px;
+    }
+}
+
+@media (max-width: 1025px) {
+   
+    .navbar .container {
         gap: 40px;
     }
-    .navbar-nav{
+
+    .navbar-nav {
         gap: 14px;
     }
-   
-    
+
+
 }
 
-    @media (max-width: 992px){
-.blog-container-992 {
-    max-width: 992px;
-}
-.btn-group-vertical>.btn, .btn-group>.btn {
-    position: relative;
-    flex: 0;
-}
+
+
+@media screen and (max-width: 767.97px) {
+    .drop-line {
+        padding: 42px 44px;
     }
 
-    @media screen and (max-width: 767.97px){
-.drop-line {
-    padding: 42px 44px;
-}
-.hero-section {
-    padding-top: 160px;
-}
-.py-100 {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-.btn-group-vertical>.btn, .btn-group>.btn {
-
-    flex: none;
-}
-
+    .hero-section {
+        padding-top: 160px;
     }
-    @media screen and (max-width: 575.97px){
-        .hero-section {
-            padding-top: 140px;
-        }
-        .drop-line {
-    padding: 30px 18px;
-}
-.py-100 {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
+
+    .py-100 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .btn-group-vertical>.btn,
+    .btn-group>.btn {
+
+        flex: none;
+    }
 
 }
 
+@media screen and (max-width: 575.97px) {
+    .hero-section {
+        padding-top: 140px;
+    }
+
+    .drop-line {
+        padding: 30px 18px;
+    }
+
+    .py-100 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+}
