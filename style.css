@@ -469,6 +469,10 @@ footer .social-btn-anchor {
 }
 /*Footer end*/
 
+.card-feature-img-wrapper:hover{
+    --bs-bg-opacity: 1;
+    background-color: transparent!important;
+}
 
 @media screen and (min-width: 992px){
     .blog-container-992 {
@@ -486,6 +490,10 @@ footer .social-btn-anchor {
         gap: 14px;
     }
 
+ .featured-img{
+        max-width: unset;
+        min-width: unset;
+    }
 
 }
 
@@ -509,6 +517,10 @@ footer .social-btn-anchor {
     .btn-group>.btn {
 
         flex: none;
+    }
+    .featured-img{
+        max-width: unset;
+        min-width: unset;
     }
 
 }
