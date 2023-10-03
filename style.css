@@ -294,9 +294,6 @@ img {
 .bg-blue {
     background-color: #f2f9ff;
 }
-
-
-.featured-img,
 .featured-image {
     aspect-ratio: 9/6;
     width: 100%;
@@ -455,10 +452,6 @@ footer .social-btn-anchor {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    /* .featured-img-size{
-        max-width: unset;
-        min-width: unset;
-    } */
     .btn-group, .btn-group-vertical{
         display: inline-block;
     }
@@ -494,7 +487,7 @@ h6 {
         padding-top: 40px;
         padding-bottom: 40px;
 }
-.featured-img{
+.featured-image{
         max-width: unset;
         min-width: unset;
 }
