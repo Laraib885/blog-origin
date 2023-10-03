@@ -302,22 +302,6 @@ img {
     width: 100%;
     height: auto;
 }
-
-.animated-underline {
-    position: relative;
-    display: inline-block;
-    padding-bottom: 5px;
-    transition: border-color 0.3s;
-    /* Add a smooth transition effect */
-}
-
-.animated-underline:hover {
-    /* Hovered underline color */
-    border-bottom: 2px solid #00f;
-    /* Change the color as desired */
-}
-
-
 .hero-section {
     padding-top: 170px;
 }
@@ -374,19 +358,15 @@ img {
 .form button {
     max-width: 305px;
 }
-
-
 .form-label,
 .form-select {
     font-size: 14px;
     color: #575757;
 }
-
 .my-90 {
     margin-top: 90px;
     margin-bottom: 90px;
 }
-
 .discover-services .card .card-feature-img-wrapper {
     width: 100%;
     height: auto;
@@ -394,48 +374,31 @@ img {
     border-radius: 22px;
     transition: 0.25s linear;
 }
-
 .bg-yellow {
     background-color: #ffb72c;
 }
-
-
-
 /*Footer*/
 footer {
     background: #E9F4FF;
 }
-
-/* Initial styling for the underline */
-footer ul li .animated-underline {
+.animated-underline {
     position: relative;
     text-decoration: none;
-    /* Remove default underline */
 }
-
-/* Add an invisible pseudo-element for the underline */
-footer ul li .animated-underline::before {
+.animated-underline::before {
     content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     width: 0;
     height: 2px;
-    /* Adjust the height of the underline as needed */
     background-color: black;
-    /* Adjust the color as needed */
     transition: width 0.3s ease;
-    /* Add a smooth transition for the width */
     transform-origin: left;
 }
-
-/* Apply the animation on hover */
-footer ul li .animated-underline:hover::before {
+.animated-underline:hover::before {
     width: 100%;
-    /* Expand the underline to 100% width */
 }
-
-
 footer .social-icons {
     a {
         padding: 0 18px;
@@ -452,26 +415,20 @@ footer .social-icons {
 footer .social-btn-anchor {
     padding-right: 18px;
     border-right: 1px solid #C9C9C9;
-
 }
-
 .footer-squares {
     position: absolute;
     bottom: 0;
     right: 0;
-
 }
-
 .featured-img-size{
     max-width: 220px;
     min-width: 220px;
 }
-
 /*Footer end*/
-
 .card-feature-img-wrapper:hover{
     --bs-bg-opacity: 1;
-    background-color: transparent!important;
+    background-color: #fff!important;
 }
 
 @media screen and (min-width: 992px){
@@ -479,7 +436,6 @@ footer .social-btn-anchor {
         max-width: 992px;
     }
 }
-
 @media (max-width: 1025px) {
    
     .navbar .container {
@@ -489,27 +445,18 @@ footer .social-btn-anchor {
     .navbar-nav {
         gap: 14px;
     }
-
-   
-
 }
-
-
-
 @media screen and (max-width: 767.97px) {
     .drop-line {
         padding: 42px 44px;
     }
-
     .hero-section {
         padding-top: 160px;
     }
-
     .py-100 {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-
     .featured-img-size{
         max-width: unset;
         min-width: unset;
@@ -517,67 +464,53 @@ footer .social-btn-anchor {
     .btn-group, .btn-group-vertical{
         display: inline-block;
     }
-    
     .btn-group-vertical>.btn, .btn-group>.btn{
         flex : none;
     }
-    
 }
-
 @media screen and (max-width: 575.97px) {
-    
 h1 {
     font-size: 42px;
-
-    /* 128% */
 }
-
-h2 {
+h2{
     font-size: 29px;
 }
-
-h3 {
+h3{
     font-size: 22px;
-   }
-
+}
 h4 {
     font-size: 18px;
     line-height: 24px;
 }
-
 h6 {
     font-size: 14px;
 }
-    .hero-section {
-        padding-top: 120px;
-    }
+.hero-section {
+    padding-top: 120px;
+}
 
-    .drop-line {
-        padding: 30px 18px;
-    }
-
-    .py-100 {
+.drop-line {
+    padding: 30px 18px;
+}
+.py-100 {
         padding-top: 40px;
         padding-bottom: 40px;
-    }
-    .featured-img{
+}
+.featured-img{
         max-width: unset;
         min-width: unset;
-    }
-    .form-inputs {
+}
+.form-inputs {
         display: block;
-       
-    }
-    .featured-img-size{
+        }
+.featured-img-size{
         max-width: unset;
         min-width: unset;
     }
     .mb-80{
         margin-bottom: 50px;
     }
-
-    .btn-group, .btn-group-vertical{
+.btn-group, .btn-group-vertical{
         display: inline-block;
     }
-
 }
