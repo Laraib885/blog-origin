@@ -514,7 +514,9 @@ footer .social-btn-anchor {
         max-width: unset;
         min-width: unset;
     }
-    
+    .btn-group, .btn-group-vertical{
+        display: inline-block;
+    }
     
     .btn-group-vertical>.btn, .btn-group>.btn{
         flex : none;
