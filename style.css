@@ -361,6 +361,11 @@ img {
     font-size: 14px;
     color: #575757;
 }
+textarea.form-control {
+    border-radius: 12px;
+    padding-top: 16px;
+    min-height: 128px;
+}
 .my-90 {
     margin-top: 90px;
     margin-bottom: 90px;
