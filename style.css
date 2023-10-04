@@ -468,10 +468,6 @@ footer .social-btn-anchor {
     }
 }
 @media screen and (max-width: 575.97px) {
-.row{
-    padding:0 7px;
-}
-
 h1 {
     font-size: 42px;
 }
