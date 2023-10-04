@@ -89,6 +89,12 @@ button .arrow {
     padding-left: 18px;
 }
 
+.scrolled.nav-section {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    background-color: #ffffff80;
+}
+
 /*Navbar End*/
 
 /*Blog start*/
@@ -434,11 +440,25 @@ footer .social-btn-anchor {
     background-color: #fff!important;
 }
 
+
 @media screen and (min-width: 992px){
+    
     .blog-container-992 {
         max-width: 992px;
     }
+   
 }
+
+@media screen and (max-width: 991.97px){
+   .open.nav-section{
+        height: 100vh;
+        overflow-y: auto;
+        background-color: #ffffff80;
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+    }
+    }
+    
 @media (max-width: 1025px) {
    
     .navbar .container {
