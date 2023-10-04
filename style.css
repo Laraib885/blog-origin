@@ -52,11 +52,13 @@ h6 {
 /*Heading style*/
 
 /*Navbar*/
-.nav-section {
+
+
+/* .nav-section {
     transition: all 0.3s linear;
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
-}
+} */
 
 .navbar .container {
     gap: 80px;
@@ -93,6 +95,9 @@ button .arrow {
     padding-top: 7px !important;
     padding-bottom: 7px !important;
     background-color: #ffffff80;
+    transition: all 0.3s linear;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
 }
 
 /*Navbar End*/
