@@ -31,7 +31,6 @@ h3 {
     color: #333;
     font-size: 24px;
     font-weight: 600;
-
 }
 
 h4 {
@@ -75,6 +74,10 @@ h6 {
 
 .navbar-toggler {
     border: 1px solid black;
+}
+
+.z-3{
+    z-index: 999;
 }
 
 button .earth {
